@@ -7,7 +7,7 @@ cf. https://github.com/tiiuae/rclgo
 ```
 $ UID=$(id -u) GID=$(id -g) docker compose build
 $ docker compose up -d
-$ docker exec --index=1 ros2 bash
+$ docker compose exec --index=1 ros2 bash
 ```
 
 In the container
