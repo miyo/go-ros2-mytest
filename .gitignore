@@ -1,0 +1,8 @@
+*.swp
+
+/work/.bash_history
+/work/.ros
+/work/go
+
+/work/.cache
+/work/mytest/cgo-flags.env

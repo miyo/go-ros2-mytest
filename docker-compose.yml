@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  ros2:
+    hostname: ros2
+    build:
+      context: ./images/ros2
+      dockerfile: Dockerfile
+      args:
+        - UID=${UID- }
+        - GID=${GID- }
+    volumes:
+      - ./work:/home/user
+    stdin_open: true
+    tty: true
+    networks:
+      network: {}
+
+networks:
+  network:
+    driver: bridge
