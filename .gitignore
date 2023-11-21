@@ -3,6 +3,13 @@
 /work/.bash_history
 /work/.ros
 /work/go
-
 /work/.cache
+
 /work/mytest/cgo-flags.env
+/work/mytest/go.sum
+/work/mytest/greeting_msgs/build
+/work/mytest/greeting_msgs/install
+/work/mytest/greeting_msgs/log
+/work/mytest/msgs
+/work/mytest/pub
+/work/mytest/sub
